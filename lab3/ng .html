@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <p id="date"></p>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="What kind of task you want to complete today">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+        <header class="todo-header">
+            <h1>ToDo List</h1>
+        </header>
+        <button id="deleteAllBtn"
+        onclick = "deleteAllTasks()"> delete
+        All</button>
+
+        <div id="tick"><img href ="lab3/tick.avif"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

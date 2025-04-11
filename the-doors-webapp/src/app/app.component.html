@@ -1,0 +1,36 @@
+<header>
+  <h1>The Doors </h1>
+  <nav>
+    <a (click)="scrollToSection('home')">Home</a>
+    <a (click)="scrollToSection('about')">About</a>
+    <a (click)="scrollToSection('gallery')">Gallery</a>
+    <a (click)="scrollToSection('contact')">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <app-home></app-home>
+</section>
+
+<section id="about">
+  <app-about></app-about>
+</section>
+
+<section id="gallery">
+  <app-gallery></app-gallery>
+</section>
+
+<section id="contact">
+  <app-contact></app-contact>
+</section>
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2025  The Doors lover. All Rights Reserved.</p>
+    <nav>
+      <a href="#">Social Media</a>
+      <a href="#">F&Q</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </div>
+</footer>
+

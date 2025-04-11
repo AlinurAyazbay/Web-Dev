@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+  }
+  
+ 
+  header {
+    background: black;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    background: #2b0681;
+    border-radius: 5px;
+  }
+  
+
+  section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+ 
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .gallery-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery-container img:hover {
+    transform: scale(1.1);
+  }
+  
+ 
+  form {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #070b7e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #071b83;
+  }
+  
+
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Footer Styling */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  footer nav {
+    margin-top: 10px;
+  }
+  
+  footer nav a {
+    color: #15257f;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
